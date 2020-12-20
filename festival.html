@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>lianxi</title>
+		<link rel="stylesheet" type="text/css" href="festival.css" />
+	</head>
+	<body>
+		<div class="clear nav1 center">
+			<div class="font left"><button id="h">注册</button></div>
+				<ul cass="list1 left">
+					<li class="left l1"><a class="a1" href="#">中国</a></li>
+					<li class="left l1"><a class="a1" href="#">西方</a></li>
+					<li class="left l1"><a class="a1" href="#">其他</a></li>
+				</ul>
+				<form class="right">
+					<input type="text" id="in6" placeholder="节日名称" />
+					<input type="button" id="btn3" value="搜索" />
+				</form>
+		</div>
+		<div class="clear" id="box1">
+			<div class="ald left">
+				<div  class="clear d">
+					<p  class="left font">用户名</p>
+					<input class="left clS" id="id1" onfocus="focus1()" onblur="blur1()" type="text" />
+				</div>
+				<div class="d1" id="name1"></div>
+				<div class="clear d">
+					<p class="left font">设置密码</p>
+					<input class="left clS" id="id2" onfocus="focus2()" onblur="blur2()" type="password" />
+				</div>
+				<div class="d1" id="name2"></div>
+				<button id="btn">立即注册</button>
+			</div>
+			<div class="left" id="id3">
+				<p class="p" id="id4"></p>
+				<p class="p" id="id5"></p>
+				<P class="p" id="id6"></P>
+			</div>
+		</div>
+		<div id="box2">
+			<div class="nav2 center">
+				<img src="img/img1.jpg" alt="世界地图" class="img1"/>
+				<p class="font1">让&nbsp我&nbsp们&nbsp一&nbsp起&nbsp了&nbsp解&nbsp世&nbsp界&nbsp各&nbsp地&nbsp的&nbsp<span class="red">节日</span>&nbsp文&nbsp化&nbsp！</p>
+			</div>
+				<div style="position: relative;align-items: center; display: flex; justify-content: center; margin: 100px auto;">
+				<div class="arrow arrow-left" onclick="prev()"></div>
+				<div class="arrow arrow-right" onclick="next()"></div>
+				<img src="img/img1.jpg" id="demo1" alt="世界地图" class="img1"/>
+				<ul class="indexes">
+					<li class="active">1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>
+			</div>
+			<div class="clear nav3">
+				<h2 class="left font3">中国节日&nbspChinese&nbspFastivals</h2>
+				<a href="#" class="font3 right a2">全部</a>
+			</div>
+		
+			<ul class="clear nav4">
+				<li class="l2 left ">
+					<a href="#" class="a3"><img src="img/img2.jpg"alt="春节" class="img2" /></a>
+					<div class="p1">
+						<h5 class="center">春节简介</h5>
+						<p>春节，即农历新年，是一年之岁首、传统意义上的年节。俗称新春、新年、新岁、岁旦、年禧、大年等，口头上又称度岁、庆岁、过年、过大年。春节历史悠久，由上古时代岁首祈年祭祀演变而来...</p>
+					</div>
+				</li>
+				<li class="l3 left">
+					<a href="#" class="a3"><img src="img/img3.jpg" alt="春节" class="img3"/></a>
+					<div class="p2">
+						<h5 class="center">春节习俗</h5>
+						<p>有舞狮、飘色、耍龙、游神、押舟、年例、逛庙会、逛花街、烧烟花，也有踩高跷、跑旱船、扭秧歌等等，祭祀神灵、拜祭祖先习俗盛行于南方沿海一带，承袭古时习俗，春节期间多地有举行盛大的祭祝祈年活动...</p>
+					</div>
+				</li>
+				<li class="l4 left">
+					<a href="#" class="a3"><img src="img/img4.jpg" alt="春节" class="img3"/></a>
+					<div class="p3">
+						<h5 class="center">春节故事</h5>
+						<p>有舞狮、飘色、耍龙、游神、押舟、年例、逛庙会、逛花街、烧烟花，也有踩高跷、跑旱船、扭秧歌等等，祭祀神灵、拜祭祖先习俗盛行于南方沿海一带，承袭古时习俗，春节期间多地有举行盛大的祭祝祈年活动...</p>
+					</div>
+				</li>
+			</ul>
+
+			<ul class="clear nav4">
+				<li class="l2 left">
+					<a href="#" class="a3"><img src="img/img5.jpg"alt="端午节" class="img2"/></a>
+					<div class="p1">
+						<h5 class="center">端午节简介</h5>
+						<p>端午节，又称端阳节、龙舟节、重午节、龙节、正阳节、天中节等，节期在农历五月初五，是中国民间的传统节日。端午节源自天象崇拜，由上古时代祭龙演变而来。仲夏端午，苍龙...</p>
+					</div>
+				</li>
+				<li class="l3 left">
+					<a href="#" class="a3"><img src="img/img6.jpg" alt="端午节" class="img3"/></a>
+					<div class="p2">
+						<h5 class="center">端午节习俗</h5>
+						<p>端午习俗内容丰富多彩，主要有赛龙舟、祭龙、采草药、挂艾草、打午时水、洗草药水、拜神祭祖、浸龙舟水、食粽、放纸龙、放纸鸢、拴五色丝线、佩香囊等习俗...</p>
+					</div>
+				</li>
+				<li class="l3 left">
+					<a href="#" class="a3"><img src="img/img7.jpg" alt="端午节" class="img3"/></a>
+					<div class="p3">
+						<h5 class="center">端午节故事</h5>
+						<p>端午习俗内容丰富多彩，主要有赛龙舟、祭龙、采草药、挂艾草、打午时水、洗草药水、拜神祭祖、浸龙舟水、食粽、放纸龙、放纸鸢、拴五色丝线、佩香囊等习俗...</p>
+					</div>
+				</li>
+			</ul>
+			<div class="clear nav3">
+				<p class="left font3">西方节日&nbspWestern&nbspFastivals</p>
+				<a href="#" class="font3 right a2">全部</a>
+			</div>
+			<ul class="clear nav4">
+				<li class="l2 left">
+					<a href="#" class="a3"><img src="img/img8.jpg" alt="圣诞节" class="img2" /></a>
+					<div class="p1">
+						<h5 class="center">圣诞节简介</h5>
+						<p>圣诞节（Christmas）又称耶诞节，译名为“基督弥撒”，它源自古罗马人迎接新年的农神节，与基督教本无关系。在基督教盛行罗马帝国后，教廷随波逐流地将这种民俗节日纳入基督教体系，同时以庆祝耶稣的降生...</p>
+					</div>
+				</li>
+				<li class="l3 left">
+						<a href="#" class="a3"><img src="img/img9.jpg" alt="圣诞节" class="img3" /></a>
+						<div class="p2">
+						<h5 class="center">圣诞节习俗</h5>
+						<p>装扮圣诞树，互赠圣诞卡片，圣诞信件，给亲友送礼物，唱圣诞歌，制作圣诞美食...</p>
+					</div>
+				</li>
+				<li class="l4 left">
+						<a href="#" class="a3"><img src="img/img10.jpg" alt="圣诞节" class="img3" /></a>
+						<div class="p3">
+						<h5 class="center">圣诞节故事</h5>
+						<p>装扮圣诞树，互赠圣诞卡片，圣诞信件，给亲友送礼物，唱圣诞歌，制作圣诞美食...</p>
+					</div>
+
+				</li>
+			</ul>
+			<ul class="clear nav4">
+				<li class="l2 left">
+					<a href="#" class="a3"><img src="img/img11.jpg"alt="万圣节" class="img2" /></a>
+					<div class="p1">
+						<h5 class="center">万圣节简介</h5>
+						<p>万圣节又叫诸圣节，在每年的11月1日，是西方的传统节日；而万圣节前夜的10月31日是这个节日最热闹的时刻[1]。在中文里，常常把万圣节前夜（Halloween）讹译为万圣节（All Saints' Day）...</p>
+					</div>
+				</li>
+				<li class="l3 left">
+					<a href="#" class="a3"><img src="img/img12.jpg" alt="万圣节" class="img3" /></a>
+					<div class="p2">
+						<h5 class="center">万圣节习俗</h5>
+						<p>“南瓜灯”是万圣节的象征，万圣节时各家各户都会买来南瓜。这些南瓜经过雕刻会变成一张张阴森可怕的脸，然后在里面放上蜡烛，从而变成“南瓜灯”。在万圣节前夜，孩子们会穿着各种稀奇古怪的服装，提着南瓜灯去敲响别人家的门...</p>
+					</div>
+				</li>
+				<li class="l4 left">
+					<a href="#" class="a3"><img src="img/img13.jpg" alt="万圣节" class="img3"/></a>
+					<div class="p3">
+						<h5 class="center">万圣节故事</h5>
+						<p>装扮圣诞树，互赠圣诞卡片，圣诞信件，给亲友送礼物，唱圣诞歌，制作圣诞美食...</p>
+					</div>
+				</li>
+			</ul>
+			<div class="nav5">
+				<a href="#"class="a2">其他</a>
+			</div>
+		</div>
+		<script>
+			function next() {
+				index++
+				if(index === 4) index = 0 
+				clearInterval(timer)
+				setStyle()
+				run()
+			}
+			function prev() {
+				index--
+				if(index === -1) index = 3 
+				clearInterval(timer)
+				setStyle()
+				run()
+			}
+			
+			let arr = [
+				"img/img1.jpg",
+				"img/img3.jpg",
+				"img/img4.jpg",
+				"img/img7.jpg"
+			]
+			var demo1 = document.getElementById('demo1')
+			let indexes = document.getElementsByClassName('indexes')[0].children
+			let timer = -1
+			for (let i = 0; i < indexes.length; i++) {
+				indexes[i].onmouseenter = function () {
+					
+					index = i
+					clearInterval(timer)
+					setStyle()
+				}
+				indexes[i].onmouseleave = function () {
+					run()
+				}
+			}
+			var index = 0
+			 function run() {
+				 timer = setInterval(() => {
+				index++				
+				if(index === 4) index = 0
+				setStyle()
+			}, 2000);
+			 }
+			 function setStyle() {
+				 demo1.src = arr[index]
+				 let active = document.getElementsByClassName('active')[0]
+				 active.classList.remove('active')
+				 indexes[index].classList.add("active")
+			 }
+			 run()
+		</script>
+		<script>
+			var box1=document.getElementById("box1");
+			var box2=document.getElementById("box2");
+			var h=document.getElementById("h");
+			var name1=document.getElementById("name1");
+			var id1=document.getElementById("id1");
+			var name2=document.getElementById("name2");
+			var id2=document.getElementById("id2");
+			var btn=document.getElementById("btn");
+			var id4=document.getElementById("id4");
+			var id5=document.getElementById("id5");
+			var id6=document.getElementById("id6");
+			var i=0;
+			h.onclick=function(){
+				i++;
+				if(i%2==1){
+					box1.style.display="block";
+					box2.style.display="none";
+				}else{
+					box1.style.display="none";
+					box2.style.display="block";
+				}
+
+			}
+			function focus1(){
+				name1.innerHTML="支持中文数字";
+			}
+			function blur1(){
+				if(id1.value==''){
+					name1.innerHTML="用户名不能为空";
+				}else{
+					name1.innerHTML="";
+				}
+			}
+			function focus2(){
+				name2.innerHTML="建议使用两种字符组合";
+			}
+			function blur2(){
+				if(id2.value==''){
+					name2.innerHTML="密码不能为空";
+				}else{
+					name2.innerHTML="";
+				}
+			}
+			btn.onclick=function(){
+				id4.innerHTML="注册成功！";
+				id5.innerHTML="用户名："+id1.value;
+				id6.innerHTML="密码："+id2.value;
+			}
+		</script>
+		<script>
+			var in6=document.getElementById("in6");
+			var btn3=document.getElementById("btn3");
+			btn3.onclick=function(){
+				if(in6.value==""){
+					alert("不能为空");
+				}else{
+					window.open("https://www.baidu.com/s?wd="+in6.value+"&rsv_spt=1&rsv_iqid=0xb87ec356000a923d&issp=1&f=3&rsv_bp=1&rsv_idx=2&ie=utf-8&tn=88093251_31_hao_pg&rsv_enter=1&rsv_dl=ts_5&rsv_sug3=6&rsv_sug1=4&rsv_sug7=100&rsv_sug2=1&rsv_btype=t&prefixsug=heib%2520&rsp=5&inputT=5047&rsv_sug4=5561")
+				}
+			}
+		</script>
+	</body>
+</html>
